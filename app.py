@@ -13,7 +13,7 @@ def save_data_to_file(data, i):
         for content in content_list:
             output_file.write(content + "\n") 
 
-for i in range(7785, 15000):
+for i in range(15247, 30000):
     # Define the API endpoint URL
     api_url = base_url + str(i)
     
